@@ -1,6 +1,6 @@
 package neo.adapter;
 
-class CardReader implements USB {
+public class CardReader implements USB {
     private MemoryCard memoryCard;
 
     public CardReader(MemoryCard memoryCard) {
